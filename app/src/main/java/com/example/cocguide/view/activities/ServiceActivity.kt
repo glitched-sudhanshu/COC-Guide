@@ -27,7 +27,7 @@ class ServiceActivity : AppCompatActivity() {
         val playersFragment = PlayersFragment()
         val rankingFragment = RankingFragment()
 
-        val listOfFragment = listOf(clansFragment, esportsFragment, goldPassFragment, leagueFragment, playersFragment, rankingFragment)
+        val listOfFragment = listOf(clansFragment, playersFragment, leagueFragment, rankingFragment, esportsFragment, goldPassFragment)
 
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.fragment_container_view, listOfFragment[fragmentIndex])

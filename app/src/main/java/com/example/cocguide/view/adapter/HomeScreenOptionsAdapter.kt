@@ -29,6 +29,8 @@ class HomeScreenOptionsAdapter(private val collections : List<String>, private v
 
         val binding = HomeOptionsItemBinding.inflate(LayoutInflater.from(context), parent, false)
 
+
+
         calculateImageDimen(parent, binding)
 
         return ViewHolder(binding)
@@ -72,7 +74,7 @@ class HomeScreenOptionsAdapter(private val collections : List<String>, private v
 
     private fun calculateImageDimen(parent: ViewGroup, binding: HomeOptionsItemBinding) {
         val cardImageWidth = parent.width/2 - (2*binding.llItem.marginStart)
-        val cardImageHeight = parent.height/(imageList.size/2) - (2* MARGIN_SIZE)
+        val cardImageHeight = parent.height/(imageList.size/2) - (2* binding.llItem.marginStart)
         val imageDimension = kotlin.math.min(cardImageWidth, cardImageHeight)
         val layoutParams = ViewGroup.LayoutParams(imageDimension, imageDimension)
         binding.cvImage.layoutParams = layoutParams
