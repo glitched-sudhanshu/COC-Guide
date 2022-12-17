@@ -1,0 +1,38 @@
+package com.example.cocguide.view.activities
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Toast
+import com.example.cocguide.R
+import com.example.cocguide.databinding.ActivityServiceBinding
+import com.example.cocguide.model.Constants.FRAGMENT_INDEX
+import com.example.cocguide.view.fragments.*
+
+class ServiceActivity : AppCompatActivity() {
+
+    private lateinit var mBinding :ActivityServiceBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        mBinding = ActivityServiceBinding.inflate(layoutInflater)
+        setContentView(mBinding.root)
+
+        //todo use safeargs
+        val fragmentIndex = intent.getIntExtra(FRAGMENT_INDEX, 0)
+
+        val clansFragment = ClansFragment()
+        val esportsFragment = EsportsFragment()
+        val goldPassFragment = GoldPassFragment()
+        val leagueFragment = LeagueFragment()
+        val playersFragment = PlayersFragment()
+        val rankingFragment = RankingFragment()
+
+        val listOfFragment = listOf(clansFragment, esportsFragment, goldPassFragment, leagueFragment, playersFragment, rankingFragment)
+
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragment_container_view, listOfFragment[fragmentIndex])
+            commit()
+        }
+
+    }
+}
