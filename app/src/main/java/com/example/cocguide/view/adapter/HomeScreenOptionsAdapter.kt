@@ -29,8 +29,6 @@ class HomeScreenOptionsAdapter(private val collections : List<String>, private v
 
         val binding = HomeOptionsItemBinding.inflate(LayoutInflater.from(context), parent, false)
 
-
-
         calculateImageDimen(parent, binding)
 
         return ViewHolder(binding)

@@ -17,8 +17,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
 
         mBinding = ActivityLoginBinding.inflate(layoutInflater)
 
-        val intent = Intent(this@LoginActivity, HomeOptionsActivity::class.java)
-        startActivity(intent)
+//        val intent = Intent(this@LoginActivity, HomeOptionsActivity::class.java)
+//        startActivity(intent)
 
         setContentView(mBinding.root)
 

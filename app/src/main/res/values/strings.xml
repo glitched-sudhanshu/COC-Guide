@@ -2,4 +2,15 @@
     <string name="app_name">COC Guide</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="clan_options">
+        <item>Current clan war league group</item>
+        <item>Clan war league war</item>
+        <item>Clan war log</item>
+        <item>Current clan war</item>
+        <item>Clan info</item>
+        <item>Clan members</item>
+        <item>Clan\'s capital raid seasons</item>
+    </string-array>
+
 </resources>
