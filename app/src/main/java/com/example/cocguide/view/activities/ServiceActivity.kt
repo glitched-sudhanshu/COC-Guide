@@ -2,10 +2,9 @@ package com.example.cocguide.view.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.example.cocguide.R
 import com.example.cocguide.databinding.ActivityServiceBinding
-import com.example.cocguide.model.Constants.FRAGMENT_INDEX
+import com.example.cocguide.model.utils.Constants.FRAGMENT_INDEX
 import com.example.cocguide.view.fragments.*
 
 class ServiceActivity : AppCompatActivity() {

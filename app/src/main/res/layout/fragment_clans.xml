@@ -50,6 +50,7 @@
         android:background="@android:color/transparent"
         android:hint="Clan Tag"
         android:textColorHint="@color/black"
+        android:visibility="visible"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
@@ -59,8 +60,7 @@
         app:hintTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ddClan"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/ddClan">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etClanTag"
@@ -76,8 +76,8 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="Search"
-        app:layout_constraintEnd_toEndOf="@+id/tilClanTag"
-        app:layout_constraintStart_toStartOf="@+id/tilClanTag"
+        app:layout_constraintEnd_toEndOf="@+id/ddClan"
+        app:layout_constraintStart_toStartOf="@+id/ddClan"
         app:layout_constraintTop_toBottomOf="@+id/tilClanTag" />
 
 

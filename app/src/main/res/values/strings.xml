@@ -7,10 +7,32 @@
         <item>Current clan war league group</item>
         <item>Clan war league war</item>
         <item>Clan war log</item>
+        <item>Clans</item>
         <item>Current clan war</item>
         <item>Clan info</item>
         <item>Clan members</item>
         <item>Clan\'s capital raid seasons</item>
     </string-array>
 
+    <string-array name="league_options">
+        <item>List Capital Leagues</item>
+        <item>List Leagues</item>
+        <item>League Season Ranking</item>
+        <item>Capital League Information</item>
+        <item>League Information</item>
+        <item>League Season</item>
+        <item>War League Info</item>
+        <item>War Leagues</item>
+
+    </string-array>
+
+    <string-array name="rank_options">
+        <item>Clan Rankings</item>
+        <item>Player Rankings</item>
+        <item>Clan-versus Rankings</item>
+        <item>Player-versus Rankings</item>
+        <item>List Locations</item>
+        <item>Capital Rankings</item>
+        <item>Location Info</item>
+    </string-array>
 </resources>

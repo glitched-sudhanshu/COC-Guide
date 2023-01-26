@@ -1,4 +1,4 @@
-package com.example.cocguide.model
+package com.example.cocguide.model.utils
 
 object Constants {
 

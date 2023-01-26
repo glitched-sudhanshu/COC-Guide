@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492709395211",
+    "project_id": "coc-guide-c622f",
+    "storage_bucket": "coc-guide-c622f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492709395211:android:ecd52f1bd1b3147bdb400e",
+        "android_client_info": {
+          "package_name": "com.example.cocguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492709395211-1h0qu0cir4h9jqc1k3hast95ul1kh8n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARUa6cnkiJeA42ae6EHfiT-tXSbG9b7Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492709395211-1h0qu0cir4h9jqc1k3hast95ul1kh8n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

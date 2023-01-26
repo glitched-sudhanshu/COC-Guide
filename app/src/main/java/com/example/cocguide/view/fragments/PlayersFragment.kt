@@ -41,10 +41,6 @@ class PlayersFragment : Fragment(R.layout.fragment_players) {
             tab.text = tabLayoutTexts[position]
         }.attach()
 
-//        tabLayout.setupWithViewPager(viewPager)
-
-
-
     }
 
 }

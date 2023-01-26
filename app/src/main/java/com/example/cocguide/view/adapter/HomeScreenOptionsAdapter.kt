@@ -3,19 +3,16 @@ package com.example.cocguide.view.adapter
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.view.marginStart
-import androidx.core.view.marginTop
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.cocguide.R
 import com.example.cocguide.databinding.HomeOptionsItemBinding
-import com.example.cocguide.model.Constants.FRAGMENT_INDEX
+import com.example.cocguide.model.utils.Constants.FRAGMENT_INDEX
 import com.example.cocguide.view.activities.ServiceActivity
-import java.lang.Math.min
 
 
 class HomeScreenOptionsAdapter(private val collections : List<String>, private val imageList : List<Int>, private val context: Context) : RecyclerView.Adapter<HomeScreenOptionsAdapter.ViewHolder>(){
@@ -71,8 +68,8 @@ class HomeScreenOptionsAdapter(private val collections : List<String>, private v
 
 
     private fun calculateImageDimen(parent: ViewGroup, binding: HomeOptionsItemBinding) {
-        val cardImageWidth = parent.width/2 - (2*binding.llItem.marginStart)
-        val cardImageHeight = parent.height/(imageList.size/2) - (2* binding.llItem.marginStart)
+        val cardImageWidth = parent.width/2 - (2*binding.llItem.marginStart + 2*binding.constraintLayout.paddingStart)
+        val cardImageHeight = parent.height/(imageList.size/2) - (2* binding.llItem.marginStart + 2*binding.constraintLayout.paddingStart)
         val imageDimension = kotlin.math.min(cardImageWidth, cardImageHeight)
         val layoutParams = ViewGroup.LayoutParams(imageDimension, imageDimension)
         binding.cvImage.layoutParams = layoutParams
