@@ -32,7 +32,7 @@ class AuthActivity : AppCompatActivity() {
         tabLayout = mBinding.tabLayout
         viewPager = mBinding.loginViewPager
 
-        val fragmentManager = supportFragmentManager;
+        val fragmentManager = supportFragmentManager
         val adapter = AuthVpAdapter(fragmentManager, lifecycle)
 //
 //        val adapter = PlayersVpAdapter(this)
@@ -44,6 +44,18 @@ class AuthActivity : AppCompatActivity() {
             tab.text = tabLayoutTexts[position]
         }.attach()
         tabLayout.tabGravity = TabLayout.GRAVITY_FILL
+
+        mBinding.loginViewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback(){
+            override fun onPageScrolled(
+                position: Int,
+                positionOffset: Float,
+                positionOffsetPixels: Int
+            ) {
+                super.onPageScrolled(position, positionOffset, positionOffsetPixels)
+                val progress = (position + positionOffset) / (adapter.itemCount - 1)
+                mBinding.mlCons.progress = progress
+            }
+        })
 
 
 //        val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragment) as NavHostFragment
