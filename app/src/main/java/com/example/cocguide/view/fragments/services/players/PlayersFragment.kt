@@ -1,4 +1,4 @@
-package com.example.cocguide.view.fragments
+package com.example.cocguide.view.fragments.services.players
 
 import android.app.ActionBar
 import android.os.Bundle

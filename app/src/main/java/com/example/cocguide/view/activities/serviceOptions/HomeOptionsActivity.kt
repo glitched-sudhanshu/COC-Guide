@@ -1,4 +1,4 @@
-package com.example.cocguide.view.activities
+package com.example.cocguide.view.activities.serviceOptions
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
