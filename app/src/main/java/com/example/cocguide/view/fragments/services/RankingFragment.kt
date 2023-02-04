@@ -1,4 +1,4 @@
-package com.example.cocguide.view.fragments
+package com.example.cocguide.view.fragments.services
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -2,8 +2,8 @@ package com.example.cocguide.view.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.cocguide.view.fragments.VerifyPlayerFragment
-import com.example.cocguide.view.fragments.PlayerInfoFragment
+import com.example.cocguide.view.fragments.services.players.VerifyPlayerFragment
+import com.example.cocguide.view.fragments.services.players.PlayerInfoFragment
 
 class PlayersVpAdapter(
     val fragment : Fragment
@@ -14,7 +14,6 @@ class PlayersVpAdapter(
         val verifyPlayerFragment = VerifyPlayerFragment()
         val listFragments = listOf(playerInfoFragment, verifyPlayerFragment)
         return listFragments[position]
-
     }
 
     override fun getItemCount(): Int {

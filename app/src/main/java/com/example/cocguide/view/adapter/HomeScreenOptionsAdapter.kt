@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide
 import com.example.cocguide.R
 import com.example.cocguide.databinding.HomeOptionsItemBinding
 import com.example.cocguide.model.utils.Constants.FRAGMENT_INDEX
-import com.example.cocguide.view.activities.ServiceActivity
+import com.example.cocguide.view.activities.serviceOptions.ServiceActivity
 
 
 class HomeScreenOptionsAdapter(private val collections : List<String>, private val imageList : List<Int>, private val context: Context) : RecyclerView.Adapter<HomeScreenOptionsAdapter.ViewHolder>(){
@@ -51,7 +51,7 @@ class HomeScreenOptionsAdapter(private val collections : List<String>, private v
             .with(context)
             .load(ContextCompat.getDrawable(context, imageList[position]))
             .fitCenter()
-            .placeholder(ContextCompat.getDrawable(context, R.drawable.button_bg))
+            .placeholder(ContextCompat.getDrawable(context, R.drawable.rv_bg))
             .into(holder.cvImage)
 
     }

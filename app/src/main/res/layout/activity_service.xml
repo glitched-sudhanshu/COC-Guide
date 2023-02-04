@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fragment_container_view"
-    tools:context=".view.activities.ServiceActivity">
+    tools:context=".view.activities.serviceOptions.ServiceActivity">
 
 </androidx.fragment.app.FragmentContainerView>

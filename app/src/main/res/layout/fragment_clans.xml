@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.fragments.ClansFragment">
+    tools:context=".view.fragments.services.ClansFragment">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -24,7 +24,7 @@
         android:id="@+id/ddClan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
+        android:layout_margin="20dp"
         android:hint="Clan options"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -46,7 +46,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
+        android:layout_margin="20dp"
         android:background="@android:color/transparent"
         android:hint="Clan Tag"
         android:textColorHint="@color/black"

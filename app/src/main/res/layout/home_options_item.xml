@@ -5,14 +5,15 @@
     android:id="@+id/llItem"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/_10sdp"
-    android:layout_marginStart="@dimen/_10sdp">
+    android:layout_margin="13dp"
+    android:layout_marginStart="13dp"
+    android:backgroundTint="@android:color/transparent">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:elevation="@dimen/_10sdp"
+        android:elevation="10dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,56 +27,55 @@
             android:id="@+id/constraintLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_5sdp"
-            android:paddingStart="@dimen/_5sdp"
+            android:padding="7dp"
+            android:paddingStart="7dp"
             android:background="@drawable/transparent_bg_bordered_button">
 
-            <ImageView
-                android:id="@+id/cvImage"
-                android:layout_width="@dimen/_100sdp"
-                android:layout_height="@dimen/_100sdp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+        <ImageView
+            android:id="@+id/cvImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
 
-            <TextView
-                android:id="@+id/cvText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="TextView"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                app:chainUseRtl="true"
-                app:layout_constraintBottom_toBottomOf="@+id/cvMoreOptionsBtn"
-                app:layout_constraintEnd_toStartOf="@+id/cvMoreOptionsBtn"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintHorizontal_chainStyle="spread_inside"
-                app:layout_constraintStart_toStartOf="@+id/cvImage"
-                app:layout_constraintTop_toTopOf="@+id/cvMoreOptionsBtn" />
+        <TextView
+            android:id="@+id/cvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:chainUseRtl="true"
+            app:layout_constraintBottom_toBottomOf="@+id/cvMoreOptionsBtn"
+            app:layout_constraintEnd_toStartOf="@+id/cvMoreOptionsBtn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/cvImage"
+            app:layout_constraintTop_toTopOf="@+id/cvMoreOptionsBtn" />
 
-            <ImageButton
-                android:id="@+id/cvMoreOptionsBtn"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="4dp"
-                android:background="@android:color/transparent"
-                android:padding="0dp"
-                android:src="@drawable/ic_more_options"
-                app:tint="@color/black"
-                app:chainUseRtl="true"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/cvImage"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/cvText"
-                app:layout_constraintTop_toBottomOf="@+id/cvImage" />
+        <ImageButton
+            android:id="@+id/cvMoreOptionsBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            android:src="@drawable/ic_more_options"
+            app:tint="@color/black"
+            app:chainUseRtl="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cvImage"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/cvText"
+            app:layout_constraintTop_toBottomOf="@+id/cvImage" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     </androidx.cardview.widget.CardView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout >

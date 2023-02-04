@@ -10,24 +10,26 @@
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/options_cv_bg.xml" value="0.251" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/transparent_bg_bordered.xml" value="0.251" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/transparent_bg_bordered_button.xml" value="0.251" />
-        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/view_bg.xml" value="0.2485" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_auth.xml" value="0.264" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_home_options.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_service.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_base_auth.xml" value="0.20863616930312098" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_clans.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_esports.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_gold_pass.xml" value="0.25416666666666665" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_league.xml" value="0.25416666666666665" />
-        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_login.xml" value="0.2" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_player_info.xml" value="0.13796296296296295" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_players.xml" value="0.1" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_ranking.xml" value="0.25416666666666665" />
-        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_sign_up.xml" value="0.2" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_verify_player.xml" value="0.25416666666666665" />
-        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/home_options_item.xml" value="0.1" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/home_options_item.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

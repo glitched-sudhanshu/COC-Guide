@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_service"
+    app:startDestination="@id/homeOptionsActivity">
+
+    <activity
+        android:id="@+id/homeOptionsActivity"
+        android:name="com.example.cocguide.view.activities.serviceOptions.HomeOptionsActivity"
+        android:label="activity_home_options"
+        tools:layout="@layout/activity_home_options">
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_clansFragment"
+            app:destination="@id/clansFragment" />
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_playersFragment"
+            app:destination="@id/playersFragment" />
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_leagueFragment"
+            app:destination="@id/leagueFragment" />
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_goldPassFragment"
+            app:destination="@id/goldPassFragment" />
+        <action
+            android:id="@+id/action_homeOptionsActivity_to_esportsFragment"
+            app:destination="@id/esportsFragment" />
+    </activity>
+    <fragment
+        android:id="@+id/clansFragment"
+        android:name="com.example.cocguide.view.fragments.services.ClansFragment"
+        android:label="fragment_clans"
+        tools:layout="@layout/fragment_clans">
+        <action
+            android:id="@+id/action_clansFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/esportsFragment"
+        android:name="com.example.cocguide.view.fragments.services.EsportsFragment"
+        android:label="fragment_esports"
+        tools:layout="@layout/fragment_esports">
+        <action
+            android:id="@+id/action_esportsFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/goldPassFragment"
+        android:name="com.example.cocguide.view.fragments.services.GoldPassFragment"
+        android:label="fragment_gold_pass"
+        tools:layout="@layout/fragment_gold_pass">
+        <action
+            android:id="@+id/action_goldPassFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/leagueFragment"
+        android:name="com.example.cocguide.view.fragments.services.LeagueFragment"
+        android:label="fragment_league"
+        tools:layout="@layout/fragment_league">
+        <action
+            android:id="@+id/action_leagueFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/playersFragment"
+        android:name="com.example.cocguide.view.fragments.services.players.PlayersFragment"
+        android:label="fragment_players"
+        tools:layout="@layout/fragment_players">
+        <action
+            android:id="@+id/action_playersFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankingFragment"
+        android:name="com.example.cocguide.view.fragments.services.RankingFragment"
+        android:label="fragment_ranking"
+        tools:layout="@layout/fragment_ranking">
+        <action
+            android:id="@+id/action_rankingFragment_to_homeOptionsActivity"
+            app:destination="@id/homeOptionsActivity" />
+    </fragment>
+</navigation>

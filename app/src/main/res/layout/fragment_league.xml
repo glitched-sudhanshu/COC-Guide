@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".view.fragments.LeagueFragment">
+    tools:context=".view.fragments.services.LeagueFragment">
 
     <androidx.appcompat.widget.Toolbar
     android:id="@+id/toolbar"
@@ -23,7 +23,7 @@
         android:id="@+id/ddLeagues"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
+        android:layout_margin="20dp"
         android:hint="League Options"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -45,7 +45,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
+        android:layout_margin="20dp"
         android:background="@android:color/transparent"
         android:hint="League Id"
         android:textColorHint="@color/black"
@@ -72,7 +72,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_16sdp"
+        android:layout_margin="20dp"
         android:background="@android:color/transparent"
         android:hint="Season Id"
         android:textColorHint="@color/black"

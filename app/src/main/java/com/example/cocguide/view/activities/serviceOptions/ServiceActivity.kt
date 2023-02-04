@@ -1,11 +1,12 @@
-package com.example.cocguide.view.activities
+package com.example.cocguide.view.activities.serviceOptions
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cocguide.R
 import com.example.cocguide.databinding.ActivityServiceBinding
 import com.example.cocguide.model.utils.Constants.FRAGMENT_INDEX
-import com.example.cocguide.view.fragments.*
+import com.example.cocguide.view.fragments.services.*
+import com.example.cocguide.view.fragments.services.players.PlayersFragment
 
 class ServiceActivity : AppCompatActivity() {
 
