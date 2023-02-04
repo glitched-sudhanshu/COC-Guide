@@ -2,6 +2,9 @@ package com.example.cocguide.view.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.cocguide.R
 import com.example.cocguide.databinding.ActivityHomeOptionsBinding
@@ -10,13 +13,14 @@ import com.example.cocguide.view.adapter.HomeScreenOptionsAdapter
 class HomeOptionsActivity : AppCompatActivity() {
 
     private lateinit var mBinding: ActivityHomeOptionsBinding
+    private lateinit var navController: NavController
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mBinding = ActivityHomeOptionsBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
 
         homeOptionsList()
-
 
     }
 
