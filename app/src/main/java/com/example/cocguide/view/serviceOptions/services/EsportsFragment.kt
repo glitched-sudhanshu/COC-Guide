@@ -1,4 +1,4 @@
-package com.example.cocguide.view.fragments.services
+package com.example.cocguide.view.serviceOptions.services
 
 import androidx.fragment.app.Fragment
 import com.example.cocguide.R

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/primaryLightColor">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primaryDarkColor"
+        android:clickable="true"
+        android:elevation="35dp"
+        android:src="@drawable/ic_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@null" />
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="0dp"
+    android:layout_height="300dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:src="@drawable/pic1"
+    app:layout_constraintBottom_toTopOf="@+id/fabNext1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.648" />
+
+<TextView
+    android:id="@+id/txt2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/carter_one"
+    android:text="ESPORTS"
+    android:textColor="@color/black"
+    android:textSize="80sp"
+    app:layout_constraintBottom_toTopOf="@+id/img"
+    app:layout_constraintEnd_toEndOf="@+id/img"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/img" />
+
+<TextView
+    android:id="@+id/txt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/carter_one"
+    android:text="Get latest"
+    android:textColor="@color/secondaryDarkColor"
+    android:textSize="40dp"
+    app:layout_constraintBottom_toTopOf="@+id/txt2"
+    app:layout_constraintEnd_toEndOf="@+id/txt2"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/txt2" />
+
+<TextView
+    android:id="@+id/txt4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/carter_one"
+    android:text="updates"
+    android:textColor="@color/black"
+    android:textSize="80sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/img"
+    app:layout_constraintTop_toBottomOf="@+id/img"
+    app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@id/fabNext1"
+        app:layout_constraintBottom_toBottomOf="@+id/fabNext1"
+        app:layout_constraintStart_toStartOf="@+id/fabNext1"
+        app:layout_constraintTop_toTopOf="@+id/fabNext1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

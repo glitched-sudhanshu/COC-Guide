@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.fragments.services.ClansFragment">
+    tools:context=".view.serviceOptions.services.ClansFragment">
 
 
     <androidx.appcompat.widget.Toolbar

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/fragment_sign_up_scene"
-    tools:context=".view.activities.auth.SignUpFragment">
+    tools:context=".view.auth.SignUpFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilUsername"

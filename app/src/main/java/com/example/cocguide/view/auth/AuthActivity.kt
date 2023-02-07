@@ -1,16 +1,10 @@
-package com.example.cocguide.view.activities.auth
+package com.example.cocguide.view.auth
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.viewpager2.widget.ViewPager2
-import com.example.cocguide.R
 import com.example.cocguide.databinding.ActivityAuthBinding
 import com.example.cocguide.view.adapter.AuthVpAdapter
-import com.example.cocguide.view.adapter.PlayersVpAdapter
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,8 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/rv_bg"
     app:layoutDescription="@xml/activity_home_options_scene"
-    tools:context=".view.activities.serviceOptions.HomeOptionsActivity"
-    >
+    tools:context=".view.activities.serviceOptions.HomeOptionsActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/homeScreenOptionsRv"

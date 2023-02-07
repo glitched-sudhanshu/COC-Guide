@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/activity_auth_scene"
-    tools:context=".view.activities.auth.AuthActivity">
+    tools:context=".view.auth.AuthActivity">
 
     <ImageView
         android:id="@+id/imageView"

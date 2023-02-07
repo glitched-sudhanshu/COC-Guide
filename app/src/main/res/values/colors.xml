@@ -12,4 +12,20 @@
     <color name="red">#FF0000</color>
     <color name="grey">#868181</color>
     <color name="pink">#E3609D</color>
+
+    <color name="primaryColor">#ffb74d</color>
+
+    <color name="primaryLightColor">#ffe97d</color>
+
+    <color name="primaryDarkColor">#c88719</color>
+
+    <color name="secondaryColor">#ff1744</color>
+
+    <color name="secondaryLightColor">#ff616f</color>
+
+    <color name="secondaryDarkColor">#c4001d</color>
+
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="secondaryTextColor">#000000</color>
 </resources>

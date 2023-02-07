@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".view.fragments.services.players.PlayersFragment">
+    tools:context=".view.serviceOptions.services.players.PlayersFragment">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tlPlayersOptions"

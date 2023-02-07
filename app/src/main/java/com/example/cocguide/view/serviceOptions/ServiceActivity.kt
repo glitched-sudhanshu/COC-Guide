@@ -5,8 +5,8 @@ import android.os.Bundle
 import com.example.cocguide.R
 import com.example.cocguide.databinding.ActivityServiceBinding
 import com.example.cocguide.model.utils.Constants.FRAGMENT_INDEX
-import com.example.cocguide.view.fragments.services.*
-import com.example.cocguide.view.fragments.services.players.PlayersFragment
+import com.example.cocguide.view.serviceOptions.services.*
+import com.example.cocguide.view.serviceOptions.services.players.PlayersFragment
 
 class ServiceActivity : AppCompatActivity() {
 

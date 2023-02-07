@@ -1,35 +1,34 @@
-package com.example.cocguide.view.activities.auth
+package com.example.cocguide.view.auth
+
 
 import android.content.Intent
+import com.example.cocguide.R
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
-import com.example.cocguide.R
-import com.example.cocguide.databinding.FragmentSignUpBinding
+import androidx.fragment.app.Fragment
+import com.example.cocguide.databinding.FragmentLoginBinding
 import com.example.cocguide.view.activities.serviceOptions.HomeOptionsActivity
 
-class SignUpFragment : Fragment(R.layout.fragment_sign_up), View.OnClickListener {
 
-    private lateinit var mBinding: FragmentSignUpBinding
-    private var username : String? = null
+class LoginFragment : Fragment(R.layout.fragment_login), View.OnClickListener {
+
+    private lateinit var mBinding: FragmentLoginBinding
     private var email : String? = null
     private var password : String? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View {
-        mBinding = FragmentSignUpBinding.inflate(layoutInflater, container, false)
+    ): View? {
+        mBinding = FragmentLoginBinding.inflate(layoutInflater, container, false)
+
         return mBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        username = mBinding.etUsername.text.toString()
         email = mBinding.etEmail.text.toString()
         password = mBinding.etPassword.text.toString()
 
@@ -37,14 +36,14 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up), View.OnClickListener
     }
 
     private fun onClickListeners() {
-        mBinding.btnSignup.setOnClickListener(this)
+        mBinding.btnLogin.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
         if(view != null){
             when(view.id)
             {
-                mBinding.btnSignup.id -> {
+                mBinding.btnLogin.id -> {
                     val intent = Intent(requireContext(), HomeOptionsActivity::class.java)
                     startActivity(intent)
                 }

@@ -1,15 +1,12 @@
-package com.example.cocguide.view.fragments.services.players
+package com.example.cocguide.view.serviceOptions.services.players
 
-import android.app.ActionBar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.cocguide.R
-import com.example.cocguide.databinding.FragmentClansBinding
 import com.example.cocguide.databinding.FragmentPlayersBinding
-import com.example.cocguide.databinding.FragmentVerifyPlayerBinding
 import com.example.cocguide.view.adapter.PlayersVpAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 

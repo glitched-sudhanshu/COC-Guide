@@ -31,7 +31,7 @@
     </activity>
     <fragment
         android:id="@+id/clansFragment"
-        android:name="com.example.cocguide.view.fragments.services.ClansFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.ClansFragment"
         android:label="fragment_clans"
         tools:layout="@layout/fragment_clans">
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/esportsFragment"
-        android:name="com.example.cocguide.view.fragments.services.EsportsFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.EsportsFragment"
         android:label="fragment_esports"
         tools:layout="@layout/fragment_esports">
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/goldPassFragment"
-        android:name="com.example.cocguide.view.fragments.services.GoldPassFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.GoldPassFragment"
         android:label="fragment_gold_pass"
         tools:layout="@layout/fragment_gold_pass">
         <action
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/leagueFragment"
-        android:name="com.example.cocguide.view.fragments.services.LeagueFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.LeagueFragment"
         android:label="fragment_league"
         tools:layout="@layout/fragment_league">
         <action
@@ -67,7 +67,7 @@
     </fragment>
     <fragment
         android:id="@+id/playersFragment"
-        android:name="com.example.cocguide.view.fragments.services.players.PlayersFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.players.PlayersFragment"
         android:label="fragment_players"
         tools:layout="@layout/fragment_players">
         <action
@@ -76,7 +76,7 @@
     </fragment>
     <fragment
         android:id="@+id/rankingFragment"
-        android:name="com.example.cocguide.view.fragments.services.RankingFragment"
+        android:name="com.example.cocguide.view.serviceOptions.services.RankingFragment"
         android:label="fragment_ranking"
         tools:layout="@layout/fragment_ranking">
         <action

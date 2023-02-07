@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_splash"
+    app:layoutDescription="@xml/fragment_splash_screen_scene"
+    tools:context=".view.onboarding.SplashFragment">
+
+    <TextView
+        android:id="@+id/txtClash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="Clash"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <TextView
+        android:id="@+id/txtOf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="of"
+        android:textColor="@color/primaryLightColor"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtClans"
+        app:layout_constraintStart_toStartOf="@+id/txtClash"
+        app:layout_constraintTop_toBottomOf="@+id/txtClash" />
+
+    <TextView
+        android:id="@+id/txtClans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="Clans"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtClash"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="Guidee"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="186dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/characters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGuide"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
