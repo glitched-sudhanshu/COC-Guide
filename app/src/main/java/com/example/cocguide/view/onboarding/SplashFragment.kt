@@ -32,10 +32,9 @@ class SplashFragment : Fragment() {
         Handler().postDelayed({
             if(onBoardingFinished())
             {
-//                findNavController().navigate(R.id.action_splashFragment_to_authActivity)
-                findNavController().navigate(R.id.action_splashFragment_to_onBoardingVpFragment)
+                findNavController().navigate(R.id.action_splashFragment_to_authActivity)
             }else{
-                findNavController().navigate(R.id.action_splashFragment_to_onBoardingVpFragment)
+                findNavController().navigate(R.id.action_splashFragment_to_firstScreenFragment)
             }
 
         }, 2000)

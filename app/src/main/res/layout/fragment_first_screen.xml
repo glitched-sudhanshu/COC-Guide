@@ -29,6 +29,7 @@ android:background="@color/primaryLightColor">
     android:layout_marginStart="40dp"
     android:layout_marginEnd="40dp"
     android:src="@drawable/pic1"
+    android:transitionName="transitImage"
     app:layout_constraintBottom_toTopOf="@+id/fabNext1"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +47,8 @@ android:background="@color/primaryLightColor">
     app:layout_constraintBottom_toTopOf="@+id/img"
     app:layout_constraintEnd_toEndOf="@+id/img"
     app:layout_constraintHorizontal_bias="0.0"
-    app:layout_constraintStart_toStartOf="@+id/img" />
+    app:layout_constraintStart_toStartOf="@+id/img"
+    android:transitionName="transitText2" />
 
 <TextView
     android:id="@+id/txt1"
@@ -54,35 +56,38 @@ android:background="@color/primaryLightColor">
     android:layout_height="wrap_content"
     android:fontFamily="@font/carter_one"
     android:text="Get latest"
+    android:transitionName="transitText1"
     android:textColor="@color/secondaryDarkColor"
     android:textSize="40dp"
     app:layout_constraintBottom_toTopOf="@+id/txt2"
     app:layout_constraintEnd_toEndOf="@+id/txt2"
     app:layout_constraintHorizontal_bias="0.0"
-    app:layout_constraintStart_toStartOf="@+id/txt2" />
+    app:layout_constraintStart_toStartOf="@+id/txt2"/>
 
 <TextView
-    android:id="@+id/txt4"
+    android:id="@+id/txt3"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:fontFamily="@font/carter_one"
     android:text="updates"
     android:textColor="@color/black"
+    android:transitionName="transitText3"
     android:textSize="80sp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="@+id/img"
     app:layout_constraintTop_toBottomOf="@+id/img"
     app:layout_constraintVertical_bias="0.0" />
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/circle"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="@id/fabNext1"
-        app:layout_constraintBottom_toBottomOf="@+id/fabNext1"
-        app:layout_constraintStart_toStartOf="@+id/fabNext1"
-        app:layout_constraintTop_toTopOf="@+id/fabNext1" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tab1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

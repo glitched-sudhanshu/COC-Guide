@@ -14,5 +14,4 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(mBinding.root)
 
     }
-
 }

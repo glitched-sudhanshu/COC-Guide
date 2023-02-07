@@ -6,6 +6,7 @@
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/bg_splash.xml" value="0.2585" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/button_bg.xml" value="0.1135" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/circle_teal.xml" value="0.2585" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/ic_email.xml" value="0.2055" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/ic_lock.xml" value="0.124" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/drawable/ic_more_options.xml" value="0.251" />
@@ -36,7 +37,7 @@
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_player_info.xml" value="0.13796296296296295" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_players.xml" value="0.1" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_ranking.xml" value="0.25416666666666665" />
-        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_second_screen.xml" value="0.176" />
+        <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_second_screen.xml" value="0.16052631578947368" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_sign_up.xml" value="0.20863616930312098" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_splash.xml" value="0.16052631578947368" />
         <entry key="..\:/App_Dev/Android_Studio/COCGuide/app/src/main/res/layout/fragment_third_screen.xml" value="0.16052631578947368" />

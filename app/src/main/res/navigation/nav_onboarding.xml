@@ -11,25 +11,14 @@
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
-            android:id="@+id/action_splashFragment_to_onBoardingVpFragment"
-            app:destination="@id/onBoardingVpFragment"
-            app:popUpTo="@id/splashFragment"
-            app:popUpToInclusive="true" />
-        <action
             android:id="@+id/action_splashFragment_to_authActivity"
             app:destination="@id/authActivity"
             app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
-    </fragment>
-    <fragment
-        android:id="@+id/onBoardingVpFragment"
-        android:name="com.example.cocguide.view.onboarding.OnBoardingVpFragment"
-        android:label="fragment_on_boarding_vp"
-        tools:layout="@layout/fragment_on_boarding_vp" >
         <action
-            android:id="@+id/action_onBoardingVpFragment_to_authActivity"
-            app:destination="@id/authActivity"
-            app:popUpTo="@id/onBoardingVpFragment"
+            android:id="@+id/action_splashFragment_to_firstScreenFragment"
+            app:destination="@id/firstScreenFragment"
+            app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <activity
@@ -37,4 +26,34 @@
         android:name="com.example.cocguide.view.auth.AuthActivity"
         android:label="activity_auth"
         tools:layout="@layout/activity_auth" />
+    <fragment
+        android:id="@+id/firstScreenFragment"
+        android:name="com.example.cocguide.view.onboarding.FirstScreenFragment"
+        android:label="FirstScreenFragment" >
+        <action
+            android:id="@+id/action_firstScreenFragment_to_secondScreenFragment"
+            app:destination="@id/secondScreenFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondScreenFragment"
+        android:name="com.example.cocguide.view.onboarding.SecondScreenFragment"
+        android:label="SecondScreenFragment" >
+        <action
+            android:id="@+id/action_secondScreenFragment_to_thirdScreenFragment"
+            app:destination="@id/thirdScreenFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdScreenFragment"
+        android:name="com.example.cocguide.view.onboarding.ThirdScreenFragment"
+        android:label="ThirdScreenFragment" >
+        <action
+            android:id="@+id/action_thirdScreenFragment_to_authActivity"
+            app:destination="@id/authActivity"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>
